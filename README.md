@@ -1,6 +1,28 @@
 # textExtractFromPHP
 **`textExtractFromPHP()`** extracts HTML textNodes, title text and alt text from a PHP file.
 
+When applied to this PHP file:
+
+```
+<?php
+
+$Heading = txt($Page_Array[(count($Page_Array) - 1)]);
+
+echo '
+<h2 class="sb-restricted-access•safety-data-sheets»by»scotiaBeauty»»»mainHeading">Safety Data Sheets for '.$Heading.'</h2>
+<p>Unfortunately, this information is not currently available online.</p>
+<p>Please <a href="/contact-us/">contact Scotia Beauty</a> for this information.</p>
+';
+
+?>
+```
+
+**`textExtractFromPHP()`** will return:
+
+```
+Safety Data Sheets for Unfortunately, this information is not currently available online. Please contact Scotia Beauty for this information.
+```
+
 ____
 
 ## `textExtractFromPHP()` function
