@@ -7,7 +7,7 @@
 
 from a PHP file.
 
-**`textExtractFromPHP()`** is a core function of `ashSearch` but it may be used in other contexts.
+**`textExtractFromPHP()`** is a core function of `ashSearch`, but it may be used in other contexts.
 
 _____
 
