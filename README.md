@@ -15,7 +15,7 @@ _____
 
 When applied to this PHP file:
 
-```
+```php
 <?php
 
 $Heading = txt($Page_Array[(count($Page_Array) - 1)]);
@@ -31,7 +31,7 @@ echo '
 
 **`textExtractFromPHP()`** will return:
 
-```
+```php
 Safety Data Sheets for Unfortunately, this information is not currently available online.
 Please contact Scotia Beauty for this information.
 ```
@@ -40,7 +40,7 @@ ____
 
 ## `textExtractFromPHP()` function
 
-```
+```php
 function textExtractFromPHP($Page_Text) {
 
   // PREPARE DOCUMENT
