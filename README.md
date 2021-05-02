@@ -7,6 +7,12 @@
 
 from a PHP file.
 
+**`textExtractFromPHP()`** is a core function of `ashSearch` but it may be used in other contexts.
+
+_____
+
+## Example of the `textExtractFromPHP()` function in action
+
 When applied to this PHP file:
 
 ```
