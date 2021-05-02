@@ -3,7 +3,7 @@
 
 ____
 
-**`textExtractFromPHP()` function**
+## `textExtractFromPHP()` function
 
 ```
 function textExtractFromPHP($Page_Text) {
