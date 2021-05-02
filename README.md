@@ -1,5 +1,11 @@
 # textExtractFromPHP
-**`textExtractFromPHP()`** extracts HTML textNodes, title text and alt text from a PHP file.
+**`textExtractFromPHP()`** extracts:
+
+ - HTML `textNodes`
+ - `title` attribute text
+ - `alt` attibute text
+
+from a PHP file.
 
 When applied to this PHP file:
 
@@ -20,7 +26,8 @@ echo '
 **`textExtractFromPHP()`** will return:
 
 ```
-Safety Data Sheets for Unfortunately, this information is not currently available online. Please contact Scotia Beauty for this information.
+Safety Data Sheets for Unfortunately, this information is not currently available online.
+Please contact Scotia Beauty for this information.
 ```
 
 ____
